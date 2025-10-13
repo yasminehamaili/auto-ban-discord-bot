@@ -1,2 +1,11 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Don't upload secrets!
+   .env
+
+   # Don't upload dependencies (too big)
+   node_modules/
+
+   # Don't upload system files
+   .DS_Store
+   Thumbs.db
